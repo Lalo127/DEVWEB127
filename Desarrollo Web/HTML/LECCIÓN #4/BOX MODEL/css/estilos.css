@@ -1,0 +1,16 @@
+
+
+h1 {
+    color: blue; /* Establece el color del texto de los elementos <h1> en azul */
+}
+
+p {
+    color: white; /* Define el color del texto de los párrafos <p> en blanco */
+    background-color: crimson; /* Asigna un fondo color carmesí a los párrafos */
+    
+    padding: 15px; /* Agrega un espacio interno de 15 píxeles dentro del párrafo */
+    
+    border: 10px solid powderblue; /* Crea un borde sólido de 10 píxeles de color azul claro (powderblue) alrededor del párrafo */
+    
+    margin: 50px; /* Establece un margen exterior de 50 píxeles alrededor del párrafo */
+}
