@@ -1,0 +1,13 @@
+
+
+
+h1 {
+    color: blue; /* Establece el color del texto de los elementos <h1> en azul */
+}
+
+p {
+    color: brown; /* Establece el color del texto de los párrafos <p> en marrón */
+    
+    /* background-color: crimson; */ 
+    /* Comentado: Si se descomenta, establecería el fondo de los párrafos en color carmesí */
+}

@@ -1,0 +1,12 @@
+
+
+/* Estilo para el párrafo con color definido por código RGB */
+p.rgb {
+    color: rgb(112, 112, 170);
+}
+
+/* Estilo general para los párrafos */
+p {
+    color: aliceblue;
+    background-color: crimson;
+}
