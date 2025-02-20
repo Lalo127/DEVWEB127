@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
+            overflow: hidden;
+        }
+        .ball {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite ease-in-out;
+        }
+        @keyframes bounce {
+            0%, 100% {
+                top: 0;
+            }
+            50% {
+                top: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Bienvenido a la prueba de HTML!</h1>
+    <p>Haz clic en el botón para cambiar el color de fondo.</p>
+    <button onclick="cambiarColor()">Cambiar color</button>
+    <div class="ball"></div>
+
+    <script>
+        function cambiarColor() {
+            const colores = ["#ff9999", "#99ff99", "#9999ff", "#ffff99", "#ff99ff"];
+            document.body.style.backgroundColor = colores[Math.floor(Math.random() * colores.length)];
+        }
+    </script>
+</body>
+</html>
