@@ -1,0 +1,28 @@
+/* Estilo base para el enlace */
+.mi-enlace {
+    color: #007BFF; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    border: 2px solid #007BFF; /* Borde alrededor del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+/* Estilo cuando el cursor pasa sobre el enlace */
+.mi-enlace:hover {
+    background-color: #007BFF; /* Fondo azul */
+    color: white; /* Texto blanco */
+}
+
+/* Estilo cuando el enlace está activo (haciendo clic) */
+.mi-enlace:active {
+    background-color: #0056b3; /* Fondo azul más oscuro */
+    border-color: #0056b3; /* Borde azul más oscuro */
+}
+
+/* Estilo para enlaces visitados */
+.mi-enlace:visited {
+    color: #6610f2; /* Cambia el color si el enlace ha sido visitado */
+}

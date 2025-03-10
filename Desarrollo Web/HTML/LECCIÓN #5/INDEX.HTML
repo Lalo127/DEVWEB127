@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlace como Botón</title>
+    <style>
+        /* Estilizar el enlace como botón */
+        .btn {
+            display: inline-block; /* Permite aplicar padding y tamaño */
+            padding: 10px 20px; /* Espaciado interno */
+            background-color: #007bff; /* Color de fondo */
+            color: white; /* Color del texto */
+            text-decoration: none; /* Quita el subrayado */
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px; /* Bordes redondeados */
+            border: 2px solid #0056b3; /* Borde sólido */
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        /* Efecto cuando el mouse pasa por encima */
+        .btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05); /* Pequeño efecto de agrandamiento */
+        }
+
+        /* Efecto cuando se presiona */
+        .btn:active {
+            background-color: #003f7f;
+            transform: scale(0.95); /* Pequeño efecto de reducción */
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://www.ejemplo.com" class="btn">Haz clic aquí</a>
+
+</body>
+</html>
